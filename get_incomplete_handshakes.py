@@ -11,7 +11,7 @@ def get_incomplete_handshakes(data):
             if len(cipher_suites) == 0:
                 if pcap not in root_keys:
                     root_keys[pcap] = set()
-                    root_keys[pcap].add(domain)
+                root_keys[pcap].add(domain)
     return root_keys
 
 class SetEncoder(json.JSONEncoder):
