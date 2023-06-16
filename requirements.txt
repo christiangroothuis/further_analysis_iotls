@@ -1,0 +1,16 @@
+aenum==3.1.12
+appdirs==1.4.4
+cffi==1.15.1
+chardet==5.1.0
+colorama==0.4.6
+cryptography==41.0.1
+dictdumper==0.8.4.post2
+lxml==4.9.2
+packaging==23.1
+pycparser==2.21
+pyOpenSSL==23.2.0
+pypcapkit==1.0.2.post6
+pyshark==0.6
+python-nmap==0.7.1
+tbtrim==0.3.1
+termcolor==2.3.0
